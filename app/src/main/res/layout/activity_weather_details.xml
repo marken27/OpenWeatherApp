@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_20">
+
+    <TextView
+        android:id="@+id/tv_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:text="@string/label_weather"
+        android:textSize="@dimen/sp_16"/>
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:layout_marginBottom="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_5"
+        android:text="@string/label_temp"
+        android:textSize="@dimen/sp_14"/>
+
+    <TextView
+        android:id="@+id/tv_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:text="@string/label_loc"
+        android:textSize="@dimen/sp_14"/>
+
+    <TextView
+        android:id="@+id/tv_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:text="@string/label_speed"
+        android:textSize="@dimen/sp_16"/>
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:layout_marginBottom="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_5"
+        android:text="@string/label_desc"
+        android:textSize="@dimen/sp_14"/>
+
+    <TextView
+        android:id="@+id/tv_lonlat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:text="@string/label_lonlat"
+        android:textSize="@dimen/sp_14"/>
+
+
+
+</LinearLayout>

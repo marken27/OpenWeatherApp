@@ -1,0 +1,14 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="hint_search">Search Cities</string>
+    <string name="label_weather">Weather: </string>
+    <string name="label_temp">Temperature: </string>
+    <string name="label_loc">Location: </string>
+    <string name="label_speed">Speed: </string>
+    <string name="label_desc">Description: </string>
+    <string name="label_lonlat">Coordinates: </string>
+
+    <string name="label_na">N/A</string>
+    <string name="label_please_wait">Please Wait...</string>
+
+</resources>
